@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+<link rel="stylesheet" type="text/css" href="../css/transacciones.css">
+
+</head>
+
+ <!--========================================================== -->
+                        <!-- ENCABEZADO -->
+  <!--========================================================== -->
+    
+<body>
+
+ <nav  class="navbar navbar-expand-lg navbar-light p-3"  id="menu">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+          <span class="fs-5 text-primary fw-bold">Counter</span>
+          </a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+   
+
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/ingresos.html">Regresar</a>
+              </li>
+            
+            </ul>
+ </div>  
+   
+</ul>
+</nav>
+
+
+
+
+
+
+
+
+<!--========================================================== -->
+                      <!-- CONTENEDOR DEL FORMULARIO -->
+<!--========================================================== -->
+<center>
+<section>
+
+      <div class="text-center mb-4" id="titulo-formulario">
+    
+        <h2>Modificar</h2>
+        <p class="fs-5">Modificar los ingresos de la empresa</p>
+      </div>
+
+
+
+
+      <form action="">     
+  <label for="fname">Detalle:</label><br>
+  <input type="text" id="detalle" name="detalle" required ><br><br>
+  <p>Tipo     <select name="Tipo">
+	                 <option>Selecione</option>
+		             <option>Gasolina</option> 
+		             <option>Tubos</option>
+		             <option>Garrafon de agua</option>
+	              </select>
+ <p>Categoria     <select name="Categoria">
+	                 <option>Selecione</option>
+		             <option>Ingreso</option> 
+		             <option>Egreso</option>
+	              </select>
+    </p>
+  <label for="fname">Monto:</label><br>
+  <input type="text" id="monto" name="monto" required ><br><br>
+   <label for="fname">Fecha:</label><br>
+  <input type="date" id="fechas" name="fecha" required ><br><br>
+  <br><input type="submit" value="Enviar"><br>
+
+   </form>
+  
+  <br>
+  <br>
+  <br>
+  <br>
+
+</section>
+</center>
+</div>
+</body>
+</html>
